@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Carvalho | Dev Full Stack Júnior</title>
+
+    <!-- Fonte Inter (Padrão de UI/UX Moderno) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="bg-glow"></div>
+
+    <header>
+        <nav>
+
+            <!-- Botão Hambúrguer -->
+            <button class="menu-btn" id="open-menu" aria-label="Abrir menu" style="display: block;">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="sidebar">
+                <div class="close-btn-container">
+                    <i class="fas fa-times" id="close-menu"></i>
+                </div>
+                <li style="--i:1"><a href="#home">Home</a></li>
+                <li style="--i:2"><a href="#about">Sobre</a></li>
+                <li style="--i:3"><a href="#skills">Habilidades</a></li>
+                <li style="--i:5"><a href="#services">Serviços</a></li>
+                <li style="--i:7"><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="hero-content fade-in">
+                <div class="profile-container floating">
+                    <img src="img/perfil.png" alt="Lucas Carvalho" class="profile-img">
+                </div>
+                <h1>Olá, sou <span>Lucas Carvalho</span></h1>
+                <h2 class="subtitle">Desenvolvedor Full Stack</h2>
+                <p class="description">Transformando ideias em experiências digitais imersivas.</p>
+
+                <div class="hero-socials">
+                    <a href="https://wa.me/5582999715603?text=Olá%20Lucas,%20vi%20seu%20portfólio%20e%20gostaria%20de%20falar%20sobre%20um%20projeto."
+                        target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://github.com/Lucas-Carvalho6907" target="_blank" rel="noopener noreferrer"
+                        class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lucas-carvalho-360b362a0" target="_blank"
+                        rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/lucascarvalho6907" target="_blank" rel="noopener noreferrer"
+                        class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:lucascarvalho27211@gmail.com" class="social-icon" aria-label="E-mail"><i
+                            class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section id="about" class="section fade-in">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-card">
+                <p>Sou Desenvolvedor Full Stack Júnior, com formação em andamento em Administração e Análise e
+                    Desenvolvimento de Sistemas. Tenho experiência com desenvolvimento web, análise de dados e suporte
+                    técnico, sempre buscando evolução contínua e boas práticas de código.</p>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="skills" class="section fade-in">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+                    <span>HTML, CSS, JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python" style="color: #3776ab;"></i>
+                    <span>Python, Java, C#</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database" style="color: #00d4ff;"></i>
+                    <span>SQL & Banco de Dados</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-chart-bar" style="color: #00d4ff;"></i>
+                    <span>Power BI & Análise de Dados</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code-branch" style="color: #00d4ff;"></i>
+                    <span>Git & Versionamento</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-file-excel" style="color: #217346;"></i>
+                    <span>Pacote Office Avançado</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SERVIÇOS -->
+        <section id="services" class="section fade-in">
+            <h2 class="section-title">Serviços</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Sites Institucionais</h3>
+                    <p>Criação de presenças digitais sólidas e elegantes.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-user-circle"></i>
+                    <h3>Portfólios</h3>
+                    <p>Design exclusivo para profissionais de tech.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-database"></i>
+                    <h3>Sistemas Web</h3>
+                    <p>Integração completa com banco de dados.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Automação & Dados</h3>
+                    <p>Otimização de processos e análise inteligente.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER / CONTATO -->
+    <footer id="contact" class="footer fade-in">
+        <h2 class="section-title">Contato</h2>
+        <div class="footer-buttons">
+            <a href="https://wa.me/5582999715603" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://github.com/Lucas-Carvalho6907" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/lucas-carvalho-360b362a0" target="_blank"
+                rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/lucascarvalho6907" target="_blank"
+                rel="noopener noreferrer">Instagram</a>
+            <a href="mailto:lucascarvalho27211@gmail.com">E-mail</a>
+        </div>
+        <p class="copyright">© 2026 • Lucas Carvalho. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5582999715603?text=Olá%20Lucas,%20vi%20seu%20portfólio%20e%20gostaria%20de%20falar%20sobre%20um%20projeto."
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
